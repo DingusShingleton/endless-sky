@@ -189,6 +189,54 @@ outfit "Electron Beam"
 		"shield damage" 2.9
 		"hull damage" 3.9
 	description "The Electron Beam is a recent development by the Deep Sky labs, a more powerful weapon with a design similar to their perennially popular laser guns."
+	
+outfit "Mining Laser"
+	category "Guns"
+	cost 18000
+	thumbnail "outfit/mining laser"
+	"mass" 4
+	"outfit space" -4
+	"weapon capacity" -4
+	"gun ports" -1
+	weapon
+		sprite "projectile/mining laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "mining laser impact"
+		"inaccuracy" 3.5
+		"velocity" 125
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .49
+		"firing heat" 1.7
+		"shield damage" .16667
+		"hull damage" 1.6
+	description "Back when frontiersmen were just starting to probe the vast reaches of space, self-sufficiency was a necessity. Nowadays, with huge corporations like the Syndicate, independent mining operations have fallen by the wayside. However, there's still money to be made out in the fringes of the galaxy for the odd captain with gold fever."
+	description "These mining lasers are rarely produced today, so most of them are relics of a past time. While being very effective at their job in a small package, they generate no small amount of heat."
+
+outfit "Heavy Mining Laser"
+	category "Guns"
+	cost 40000
+	thumbnail "outfit/heavy mining laser"
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
+	"gun ports" -1
+	weapon
+		sprite "projectile/2x mining laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "mining laser impact"
+		"inaccuracy" 2.5
+		"velocity" 125
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .92
+		"firing heat" 3.1
+		"shield damage" .33
+		"hull damage" 3.2
+	description "Back when frontiersmen were just starting to probe the vast reaches of space, self-sufficiency was a necessity. Nowadays, with huge corporations like the Syndicate, independent mining operations have fallen by the wayside. However, there's still money to be made out in the fringes of the galaxy for the odd captain with gold fever."
+	description "Heavy mining lasers are little more than two mining lasers lashed together and crammed into a single gun port. While there are some slight efficiency gains, the main draw is fitting more guns into a single ship."
 
 outfit "Laser Turret"
 	category "Turrets"
