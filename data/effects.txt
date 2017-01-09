@@ -76,6 +76,15 @@ effect "electron impact"
 	"random angle" 2
 	"random spin" 1
 	"velocity scale" -.003
+	
+effect "mining laser impact"
+	sprite "effect/mining laser impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" -.005
 
 effect "blaster impact"
 	sprite "effect/blaster impact"
