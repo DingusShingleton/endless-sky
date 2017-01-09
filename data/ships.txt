@@ -1916,7 +1916,97 @@ ship "Manta"
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
 	description "After their Quicksilver light warship with its armament of particle cannons became a large success with convoy escorts and planetary defense forces, Megaparsec decided to develop a larger ship with similar maneuverability but heavier firepower. The Manta is the result: a ship with enough long-range firepower that fleeing from a battle with it is almost impossible."
+	
+	
+	
+ship "Mining Scow (Reg)"
+	sprite "ship/mining scow"
+	attributes
+		category "Light Freighter"
+		"cost" 140000
+		"shields" 600
+		"hull" 500
+		"required crew" 1
+		"bunks" 1
+		"mass" 30
+		"drag" 1.20
+		"heat dissipation" .59
+		"fuel capacity" 200
+		"cargo space" 50
+		"outfit space" 128
+		"weapon capacity" 22
+		"engine capacity" 55
+		weapon
+			"blast radius" 11
+			"shield damage" 110
+			"hull damage" 55
+			"hit force" 165
+	outfits
+		"Mining Laser" 2
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"Ramscoop"
+		"Afterburner"
+		
+		"Chipmunk Plasma Thruster"
+		"X2200 Ion Steering"
+	
+	engine -8 29.5 .8
+	engine 8 29.5 .8	
+	gun 26 -31
+	gun -26 -31
+	gun -12 -23
+	gun 12 -23
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	description "Back when frontiersmen were just starting to probe the vast reaches of space, self-sufficiency was a necessity. Nowadays, with huge corporations like the Syndicate, independent mining operations have fallen by the wayside. However, there's still money to be made out in the fringes of the galaxy for the odd captain with gold fever."
+	description "Purpose-built for mining, the humble mining scow combines a cramped, spartan cockpit with what amounts to a bunch of outfits bolted into a flimsy shell. Even a hyperdrive has been omitted in favor of additional utility. This ship was not meant to travel between systems, but rather to harvest minerals and return them to a local market. "
 
+	
+	
+ship "Mining Scow (PCA)"
+	sprite "ship/mining scow"
+	attributes
+		category "Light Freighter"
+		"cost" 140000
+		"shields" 600
+		"hull" 500
+		"required crew" 1
+		"bunks" 1
+		"mass" 30
+		"drag" 1.25
+		"heat dissipation" .59
+		"fuel capacity" 200
+		"cargo space" 50
+		"outfit space" 120
+		"weapon capacity" 22
+		"engine capacity" 47
+		weapon
+			"blast radius" 11
+			"shield damage" 110
+			"hull damage" 55
+			"hit force" 165
+	outfits
+		"Mining Laser" 2
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"Ramscoop"
+		"Plenum Chamber Afterburner"
+		
+		"Chipmunk Plasma Thruster"
+		"X2200 Ion Steering"
+	
+	engine -8 29.5 .8
+	engine 8 29.5 .8	
+	gun 26 -31
+	gun -26 -31
+	gun -12 -23
+	gun 12 -23
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	description "Back when frontiersmen were just starting to probe the vast reaches of space, self-sufficiency was a necessity. Nowadays, with huge corporations like the Syndicate, independent mining operations have fallen by the wayside. However, there's still money to be made out in the fringes of the galaxy for the odd captain with gold fever."
+	description "Purpose-built for mining, the humble mining scow combines a cramped, spartan cockpit with what amounts to a bunch of outfits bolted into a flimsy shell. Even a hyperdrive has been omitted in favor of additional utility. This ship was not meant to travel between systems, but rather to harvest minerals and return them to a local market. "
+	
 
 
 ship "Modified Argosy"
