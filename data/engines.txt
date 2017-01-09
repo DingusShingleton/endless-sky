@@ -35,6 +35,19 @@ outfit "Ionic Afterburner"
 	"afterburner effect" "ionic afterburner"
 	description "The ionic afterburner was designed by the Syndicate to compensate for the primary weakness of an ordinary afterburner: namely, that it consumes hyperspace fuel at a prodigious rate. Ionic afterburners instead use a small amount of fuel combined with a large burst of energy from your ship's batteries to achieve the same effect."
 
+outfit "Plenum Chamber Afterburner"
+	category "Engines"
+	"cost" 40000
+	thumbnail "outfit/afterburner"
+	"mass" 7
+	"outfit space" -7
+	"engine capacity" -7
+	"afterburner thrust" 8.3333
+	"afterburner fuel" .3
+	"afterburner heat" 7.0
+	"afterburner effect" "plenum chamber afterburner"
+	description "An afterburner works by dumping hyperspace fuel into your engines and igniting it, producing a large amount of thrust. These days, afterburners are mostly used for the tactical advantage that a huge speed boost confers. This much smaller version, however, was originally designed for use in mining ships to aid in chasing down fast-moving asteroids for harvest. Though quite inefficient, it can still provide an expeditious retreat for many small or medium-sized craft.
+	
 outfit "X1050 Ion Engines"
 	category "Engines"
 	"cost" 20000
